@@ -15,10 +15,6 @@
 
 These are the default ESLint rules for OS.js codebase.
 
-This is the main client core component of OS.js.
-
-Contains base services, virtual filesystem, panels and other core services required for operation.
-
 ## Installation
 
 ```
