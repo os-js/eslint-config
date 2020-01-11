@@ -7,6 +7,9 @@ module.exports = {
   },
   'extends': 'eslint:recommended',
   'rules': {
+    'no-multi-assign': ['error'],
+    'brace-style': ['error', '1tbs'],
+    'curly': ['error', 'all'],
     'eqeqeq': ['error', 'always'],
     'quotes': ['error', 'single'],
     'linebreak-style': ['error', 'unix'],
