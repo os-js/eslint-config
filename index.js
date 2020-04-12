@@ -3,7 +3,7 @@ module.exports = {
     'es6': true
   },
   'parserOptions': {
-    'ecmaVersion': 8
+    'ecmaVersion': 2018
   },
   'extends': 'eslint:recommended',
   'rules': {
@@ -50,6 +50,7 @@ module.exports = {
     'no-tabs': 1,
     'no-trailing-spaces': 2,
     'comma-spacing': ['error', {'before': false, 'after': true}],
-    'object-curly-spacing': ['error', 'never']
+    'object-curly-spacing': ['error', 'never'],
+    'prefer-object-spread': 1
   }
 };
