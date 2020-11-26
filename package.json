@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/os-js/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": "^7"
   }
 }
