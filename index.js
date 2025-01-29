@@ -14,7 +14,7 @@ module.exports = {
     'quotes': ['error', 'single'],
     'linebreak-style': ['error', 'unix'],
     'semi': ['error', 'always'],
-    'indent': ['error', 2],
+    'indent': ['error', 2, { 'SwitchCase': 1 }],
     'radix': 1,
     'eol-last': ['error', 'always'],
     'consistent-return': 1,
